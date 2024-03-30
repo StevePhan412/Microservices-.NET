@@ -9,3 +9,6 @@
 /.vscode
 /Play.Catalog/.vscode
 /Documentation & Resource
+/Play.Inventory/src/Play.Inventory.Service/obj
+/Play.Inventory/src/Play.Inventory.Service/bin
+/Play.Inventory/src/Play.Inventory.Service/.vs
