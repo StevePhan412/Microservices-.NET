@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {}
+  },
+  "projects": {
+    "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
+        "projectName": "Play.Catalog.Contracts",
+        "projectPath": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
+        "packagesPath": "/home/vagrant/.nuget/packages/",
+        "outputPath": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vagrant/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/vagrant/Desktop/Microservices-.NET/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "projectName": "Play.Catalog.Service",
+        "projectPath": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "packagesPath": "/home/vagrant/.nuget/packages/",
+        "outputPath": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vagrant/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/vagrant/Desktop/Microservices-.NET/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj": {
+                "projectPath": "/home/vagrant/Desktop/Microservices-.NET/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Play.Common": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
