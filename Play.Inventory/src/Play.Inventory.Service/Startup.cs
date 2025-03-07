@@ -1,6 +1,5 @@
 using System;
 using System.Net.Http;
-using Amazon.Runtime.Internal.Util;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
