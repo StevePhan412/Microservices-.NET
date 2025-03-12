@@ -15,3 +15,5 @@
 /Play.Common/src/Play.Common/bin
 /Play.Common/src/Play.Common/obj
 /Play.Frontend/node_modules
+/Play.Identity/src/Play.Identity.Service/bin
+/Play.Identity/src/Play.Identity.Service/obj

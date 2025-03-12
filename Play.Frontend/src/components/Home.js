@@ -16,6 +16,7 @@ export class Home extends Component
         <ul>
           <li>Manage the <Link to={ApplicationPaths.CatalogPath}>Catalog</Link></li>
           <li>Check a user's <Link to={ApplicationPaths.InventoryPath}>Inventory</Link></li>
+          <li><a href='http://localhost:15672/'>RabbitMQ (guest)</a></li>
         </ul>
         <p>You can also</p>
         <ul>
