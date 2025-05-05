@@ -17,3 +17,5 @@
 /Play.Frontend/node_modules
 /Play.Identity/src/Play.Identity.Service/bin
 /Play.Identity/src/Play.Identity.Service/obj
+/Play.Frontend/.idea
+/Play.Identity/src/Play.Identity.Service/.idea
